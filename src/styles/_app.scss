@@ -1,27 +1,26 @@
-  .app {
-    width: 100%;
-    min-height: 105vh;
-  }
+.app {
+  width: 100%;
+  min-height: 105vh;
+}
   
-  .wrapper{
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .container{
+    margin-top: 1rem;
     width: 100%;
+    max-width: 1300px;
     display: flex;
-    justify-content: center;
-    .container{
-      margin-top: 1rem;
-      width: 100%;
-      max-width: 1300px;
-      display: flex;
-      flex-direction:column ;
-      padding: 0 0.5rem;
-    }
-    .title{
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-      font-size: 3rem;
-      font-weight: 500;
-      text-transform: capitalize;
-      border-bottom: 1px solid rgb(211, 211, 211);
-    }
+    flex-direction:column ;
+    padding: 0 0.5rem;
   }
-  
+  .title{
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(211, 211, 211);
+  }
+}
